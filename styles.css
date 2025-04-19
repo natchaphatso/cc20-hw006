@@ -39,18 +39,18 @@
 .imtheoneinblue {
   position: absolute;
   color: white;
-  font-size: 7rem;
-  top: 273px;
-  left: 500px;
+  font-size: 9rem;
+  top: 361px;
+  left: 680px;
   overflow: hidden;
 }
 
 .imtheoneinwhite {
   position: absolute;
   color: blue;
-  font-size: 7rem;
-  bottom: 294px;
-  left: 500px;
+  font-size: 9rem;
+  bottom: 385px;
+  left: 680px;
   overflow: hidden;
 }
 
