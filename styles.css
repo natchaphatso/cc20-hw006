@@ -22,7 +22,7 @@
 
 .blue {
   background-color: blue;
-  width: 100%;
+  max-width: 1366px;
   height: 50%;
   position: relative;
   overflow: hidden;
@@ -30,7 +30,7 @@
 
 .white {
   background-color: white;
-  width: 100%;
+  max-width: 1366px;
   height: 50%;
   position: relative;
   overflow: hidden;
@@ -39,22 +39,23 @@
 .imtheoneinblue {
   position: absolute;
   color: white;
-  font-size: 9rem;
-  top: 361px;
-  left: 680px;
+  font-size: 7rem;
+  top: 309px;
+  left: 450px;
   overflow: hidden;
 }
 
 .imtheoneinwhite {
   position: absolute;
+  justify-items: center;
   color: blue;
-  font-size: 9rem;
-  bottom: 385px;
-  left: 680px;
+  font-size: 7rem;
+  bottom: 331px;
+  left: 450px;
   overflow: hidden;
 }
 
-@media only screen and (max-width: 1366px) {
+/* @media only screen and (max-width: 1366px) {
   .imtheoneinblue {
     position: absolute;
     color: white;
@@ -72,4 +73,4 @@
     left: 700px;
     overflow: hidden;
   }
-}
+} */
